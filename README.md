@@ -64,4 +64,4 @@ The statistics live in plain functions with no Streamlit code, so they are unit-
 
 The Cookie Cats dataset was published for a DataCamp project and is widely shared on Kaggle and GitHub. This copy has 90,189 rows with columns `userid`, `version`, `sum_gamerounds`, `retention_1`, and `retention_7`.
 
-##Live demo:** https://cookie-cats-ab-test-analyzer.streamlit.app
+## Live demo:** https://cookie-cats-ab-test-analyzer.streamlit.app
