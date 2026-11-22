@@ -1,5 +1,7 @@
 # A/B Test Analyzer: Cookie Cats
 
+**Live demo:** https://cookie-cats-ab-test-analyzer.streamlit.app
+
 An interactive Streamlit app that analyzes a real mobile-game A/B test with 90,189 players and turns the statistics into a plain-English product decision.
 
 **Finding:** moving the game's first gate from level 30 to level 40 **lowered 7-day retention by 0.82 percentage points** (19.02% to 18.20%, a 4.3% relative drop; 95% CI −1.33 to −0.31 points, p = 0.0016). **Recommendation: keep the gate at level 30.** 1-day retention also dipped (−0.59 points) but that change was not statistically significant (p = 0.074).
@@ -63,6 +65,3 @@ The statistics live in plain functions with no Streamlit code, so they are unit-
 ## Data source
 
 The Cookie Cats dataset was published for a DataCamp project and is widely shared on Kaggle and GitHub. This copy has 90,189 rows with columns `userid`, `version`, `sum_gamerounds`, `retention_1`, and `retention_7`.
-
-## Live demo
-https://cookie-cats-ab-test-analyzer.streamlit.app
